@@ -9,6 +9,6 @@ namespace MvcGit.Models
     {
         public string Name { get; set; }
         public string City { get; set; }
-        public int ZipCode { get; set; }
+        public string ZipCode { get; set; }
     }
 }
