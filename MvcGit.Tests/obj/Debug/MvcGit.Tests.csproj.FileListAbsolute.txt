@@ -1,0 +1,8 @@
+C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit.Tests\bin\Debug\MvcGit.Tests.dll.config
+C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit.Tests\bin\Debug\MvcGit.Tests.dll
+C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit.Tests\bin\Debug\MvcGit.Tests.pdb
+C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit.Tests\bin\Debug\MvcGit.dll
+C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit.Tests\bin\Debug\MvcGit.pdb
+C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit.Tests\obj\Debug\MvcGit.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit.Tests\obj\Debug\MvcGit.Tests.dll
+C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit.Tests\obj\Debug\MvcGit.Tests.pdb
