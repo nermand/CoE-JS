@@ -5,3 +5,7 @@ C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit\bin\EntityFramework.xml
 C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit\obj\Debug\MvcGit.csprojResolveAssemblyReference.cache
 C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit\obj\Debug\MvcGit.dll
 C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit\obj\Debug\MvcGit.pdb
+C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit\bin\MongoDB.Bson.dll
+C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit\bin\MongoDB.Driver.dll
+C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit\bin\MongoDB.Bson.xml
+C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit\bin\MongoDB.Driver.xml

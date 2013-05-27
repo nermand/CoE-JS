@@ -6,3 +6,7 @@ C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit.Tests\bin\Debug\MvcGit.pdb
 C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit.Tests\obj\Debug\MvcGit.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit.Tests\obj\Debug\MvcGit.Tests.dll
 C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit.Tests\obj\Debug\MvcGit.Tests.pdb
+C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit.Tests\bin\Debug\MongoDB.Bson.dll
+C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit.Tests\bin\Debug\MongoDB.Driver.dll
+C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit.Tests\bin\Debug\MongoDB.Bson.xml
+C:\Users\Nerman\Dropbox\Projects\MvcGit\MvcGit.Tests\bin\Debug\MongoDB.Driver.xml

@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MongoDB.Driver;
+using MongoDB.Driver.Builders;
+using MvcGit.Database;
 using MvcGit.Models;
+using MvcGit.Repositories;
 
 namespace MvcGit.Controllers
 {
@@ -51,7 +55,35 @@ namespace MvcGit.Controllers
         [HttpPost]
         public JsonResult SaveForm(IEnumerable<Task> tasks)
         {
+
             return  Json(new {success = true, listSize= tasks.Count().ToString()});
         }
+
+        public ActionResult Backbone()
+        {
+            ViewBag.Message = "Simple Backbone Example";
+            return View("Backbone");
+        }
+
+        [HttpPost]
+        public JsonResult Person(User model)
+        {
+            return Json(model);
+        }
+
+        public JsonResult Person(string id)
+        {
+            return Json("String received:" + id, JsonRequestBehavior.AllowGet);
+        }
+
+        public void LoadEntity()
+        {
+            
+            var entityRep = new EntityRepository(_context);
+            entityRep.LoadEntityByName("Marko");
+        }
+
+        private IDbProvider _context = new Database.MongoProvider();
+
     }
 }

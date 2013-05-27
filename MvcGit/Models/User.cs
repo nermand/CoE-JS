@@ -11,5 +11,6 @@ namespace MvcGit.Models
         public string City { get; set; }
         public string ZipCode { get; set; }
         public int Age { get; set; }
+        public List<Skill> Skills { get; set; }
     }
 }

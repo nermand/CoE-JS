@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Backbone Home Page";
+}
+<style>
+    body {
+	font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+	font-size: 62.5%;
+}
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+#sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; }
+#sortable li span { position: absolute; margin-left: -1.3em; }
+</style>
+<script>
+    $(function () {
+        $("#sortable").sortable();
+    });
+</script>
+<h2>@ViewBag.Message1</h2>
+
+
+
+@*
+<h3 data-bind="visible: incompleteTasks() == 0">
+    Hooray! You have no unfinished tasks :)
+</h3>
+
+<h3>Tasks</h3>
+<div>
+    <input data-bind="value: newTaskText" placeholder="What needs to be done?">    
+    <button type="button" data-bind="click: addTask">Add Task</button>
+</div>
+<form data-bind="submit: save">
+<ul id="sortable" data-bind="foreach: tasks, visible: tasks().length > 0">
+    <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>
+        <input type="checkbox" data-bind="checked: isDone"/>
+        <input type="text" data-bind="value: title, disable: isDone"/>
+        <select data-bind="options: $parent.taskTypes, optionsValue: 'id', optionsText: 'type', value: taskType"></select>
+        <a href="#" data-bind="click: $parent.removeTask">Delete Task</a>
+    </li>
+</ul>
+    <button type="submit">Save</button>
+</form>
+
+You have <b data-bind="text: incompleteTasks"></b> incomplete task(s).*@
+    
+    
+<div id="search_container"></div>
+
+@*Keep templates in a file*@
+<script type="text/template" id="search_template">
+    <label><%= search_label %></label>
+    <input type="text" id="search_input" />
+    <input type="button" id="search_button" value="Search" />
+</script>
+
+@*Always put knockout scripts on the end--DOM bindings must be set*@
+<script src="@Url.Content("~/Scripts/lib/underscore.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/lib/backbone.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/app/backbone/app.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/app/backbone/appView.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/app/backbone/appCollection.js")" type="text/javascript"></script>
